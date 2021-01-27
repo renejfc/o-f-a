@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <h1>Hello peeps!</h1>
-    <div>
-      <products-list />
-    </div>
+    <categories-list />
+    <products-list />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
 import ProductsList from "@/components/ProductsList.vue";
+import CategoriesList from "@/components/CategoriesList.vue";
 export default Vue.extend({
   name: "Home",
   components: {
+    CategoriesList,
     ProductsList
   }
 });

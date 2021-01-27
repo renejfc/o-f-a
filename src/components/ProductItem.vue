@@ -6,14 +6,12 @@
         <ul>
           <li>{{ product.price }}€</li>
           <li>{{ product.title }}</li>
-          <li>With {{ product.ingredient[1] }}</li>
+          <li>With {{ product.ingredients }}</li>
         </ul>
       </figcaption>
-      <form>
-        <button>-</button>
-        <input type="number" id="quantity" name="quantity" min="0" max="7" />
-        <button>+</button>
-      </form>
+      <button>-</button>
+      <input type="number" name="quantity" min="0" max="7" />
+      <button>+</button>
     </figure>
   </div>
 </template>
