@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-quantity {
+    @apply w-9 h-9 bg-white text-gray-500 font-semibold shadow-inner active:bg-yellow-400;
+  }
+}

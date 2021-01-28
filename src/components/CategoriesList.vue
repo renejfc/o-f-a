@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex h-40 place-items-center overflow-x-auto">
     <category-item
       v-for="category in categories"
       :key="category.id"

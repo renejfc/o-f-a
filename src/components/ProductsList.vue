@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-1 shadow-inner">
     <product-item
       v-for="product in products"
       :key="product.id"
@@ -12,6 +12,7 @@
 import Vue from "vue";
 import { products } from "@/data/productsData";
 import ProductItem from "./ProductItem.vue";
+
 export default Vue.extend({
   name: "ProductsList",
   components: {
