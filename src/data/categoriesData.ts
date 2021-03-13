@@ -3,6 +3,7 @@ export const categories: Array<{
   iconFile: string;
   title: string;
   description: string;
+  //TODO: Delete stock from categories // or not ? think about it
   stock: boolean;
 }> = [
   {
